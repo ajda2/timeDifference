@@ -13,24 +13,30 @@
 </head>
 <body>
 
-<div class="input-group clockpicker">
-    <input type="text" class="form-control" value="18:00">
-    <span class="input-group-addon">
-        <span class="glyphicon glyphicon-time"></span>
-    </span>
+<div class="holder">
+
+    <div class="input-group clockpicker">
+        <input type="text" class="form-control" value="" id="timeFrom">
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-time"></span>
+        </span>
+    </div>
+
+    <div class="input-group clockpicker">
+        <input type="text" class="form-control" value="" id="timeTo">
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-time"></span>
+        </span>
+    </div>
+
+    <div id="result"></div>
 </div>
 
-<script type="text/javascript">
-    $('.clockpicker').clockpicker({
-        placement: 'top',
-        align:     'left',
-        donetext:  'Done'
-    });
-</script>
 
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 </html>
