@@ -3,9 +3,34 @@
 <head lang="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-clockpicker.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/github.min.css">
+
     <title>Rozdíl časů</title>
 </head>
 <body>
+
+<div class="input-group clockpicker">
+    <input type="text" class="form-control" value="18:00">
+    <span class="input-group-addon">
+        <span class="glyphicon glyphicon-time"></span>
+    </span>
+</div>
+
+<script type="text/javascript">
+    $('.clockpicker').clockpicker({
+        placement: 'top',
+        align:     'left',
+        donetext:  'Done'
+    });
+</script>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap-clockpicker.min.js"></script>
 
 </body>
 </html>
