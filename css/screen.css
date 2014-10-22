@@ -1,0 +1,20 @@
+body{
+    padding: 40px 80px 80px 80px;
+    text-align: center;
+}
+
+.input-group{
+    width: 40%;
+    min-width: 200px;
+    margin: 50px auto;
+}
+
+.form-control{
+    font-size: 40px;
+    height: 90px;
+    text-align: center;
+}
+
+#result{
+    font-size: 150px;
+}

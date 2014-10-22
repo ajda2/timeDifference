@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * Author Michal Tichý
+ */
+
 $(function () {
     function calculateTimeDifference() {
         var timeFromParts = $(timeFromSelector).val().split(":");
@@ -38,7 +42,7 @@ $(function () {
 
     dateInputsHolder.clockpicker({
         'default': 'now',
-        placement: 'bottom',
+        placement: 'left',
         align:     'left',
         autoclose: true,
         donetext:  'Hotovo'
@@ -46,4 +50,6 @@ $(function () {
 
     calculateTimeDifference();
     dateInputs.change(calculateTimeDifference);
+
+    dateInputs.on("change paste keyup", calculateTimeDifference);
 });
