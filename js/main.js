@@ -42,7 +42,7 @@ $(function () {
 
     dateInputsHolder.clockpicker({
         'default': 'now',
-        placement: 'left',
+        placement: 'bottom',
         align:     'left',
         autoclose: true,
         donetext:  'Hotovo'

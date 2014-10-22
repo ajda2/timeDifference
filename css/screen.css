@@ -1,5 +1,5 @@
 body{
-    padding: 40px 80px 80px 80px;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -9,6 +9,10 @@ body{
     margin: 50px auto;
 }
 
+.input-group.last{
+    margin-bottom: 10px;
+}
+
 .form-control{
     font-size: 40px;
     height: 90px;
@@ -16,5 +20,5 @@ body{
 }
 
 #result{
-    font-size: 150px;
+    font-size: 140px;
 }
